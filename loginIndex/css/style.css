@@ -1,7 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     /* background-color: #46b2f0; */
+    background-color: #0e1f36;
+    color: white;
+    font-weight: 200;
+}
+
+h1{
+    font-weight: 400;
 }
 
 table{
@@ -23,30 +33,30 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #btn-aluno{
-    background-color: #4CAF50; 
+    background-color: #6b3fd6; 
 }
 
 #btn-aluno:hover{
-    background-color: #3c8c40;
+    background-color: #4c2c99;
 }
 
 #btn-resp{
-    background-color: #008CBA;
+    background-color: #18b5b0;
 }
 
 #btn-resp:hover{
-    background-color: #027296;
+    background-color: #107a77;
 }
 
 #btn-prof{
-    background-color: #f44336;
+    background-color: #ff934a;
 }
 
 #btn-prof:hover{
-    background-color: #a82e25;
+    background-color: #b36734;
 }
