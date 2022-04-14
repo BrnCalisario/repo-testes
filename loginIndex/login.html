@@ -16,7 +16,7 @@
         <table>
             <tr>
                 <td><label>Nome de usuário</label></td>
-                <td><input type="text" name="Name"></td>
+                <td><input id="login" type="text" name="Name"></td>
             </tr>
             <tr>
                 <td><label>Senha</label></td>
@@ -26,9 +26,24 @@
     </div>
 
     <div class="botoes">
-        <button id="btn-aluno">Sou Aluno</button>
+        <button id="btn-aluno" onclick="mensagem()">Sou Aluno</button>
         <button id="btn-resp">Sou Responsável</button>
         <button id="btn-prof">Sou Professor</button>
     </div>
+
+    <script>
+        function mensagem(){
+            var nome = document.getElementById("login").value;
+
+            var elemento = document.createElement("p");
+            elemento.textContent = "Bem-vindo " + nome;
+            document.body.appendChild(elemento) ;
+
+        }
+
+
+    </script>
+
+
 </body>
 </html>
