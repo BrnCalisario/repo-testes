@@ -27,7 +27,7 @@
 
     <div class="botoes">
         <button id="btn-aluno" onclick="mensagem()">Sou Aluno</button>
-        <button id="btn-resp">Sou Responsável</button>
+        <button id="btn-resp" onclick=""changeLocation('teste.html'); return false;>Sou Responsável</button>
         <button id="btn-prof">Sou Professor</button>
     </div>
 
@@ -41,6 +41,9 @@
 
         }
 
+        var changeLocation = function(url){
+            window.location.href = url;
+        }
 
     </script>
 

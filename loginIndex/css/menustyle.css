@@ -1,0 +1,8 @@
+.mainbox{
+    width: 1380px;
+    height: 600px;
+    background-color: white;
+    display: inline-block;
+    border: 10px lightgray;
+    border-style: inset;
+}
